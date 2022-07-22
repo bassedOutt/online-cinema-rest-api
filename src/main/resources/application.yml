@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/online_cinema"
+    username: "root"
+    password: "root_password1!"
+  jpa:
+    database-platform: "org.hibernate.dialect.MySQL5InnoDBDialect"
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
